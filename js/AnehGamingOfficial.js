@@ -50,3 +50,110 @@ if (crunchy) {
       kocak(posts_div, snapshot);
     });
   }}
+
+if (fubo) {
+  function Fire() {
+    firebase.database().ref('Fubo').once('value').then(function(snapshot) {
+      var posts_div = fubo;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (fun) {
+  function Fire() {
+    firebase.database().ref('Funimation').once('value').then(function(snapshot) {
+      var posts_div = fun;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (hbo) {
+  function Fire() {
+    firebase.database().ref('HBOMax').once('value').then(function(snapshot) {
+      var posts_div = hbo;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (hulu) {
+  function Fire() {
+    firebase.database().ref('Hulu').once('value').then(function(snapshot) {
+      var posts_div = hulu;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (ipv) {
+  function Fire() {
+    firebase.database().ref('IpVanish').once('value').then(function(snapshot) {
+      var posts_div = ipv;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (nba) {
+  function Fire() {
+    firebase.database().ref('NBA').once('value').then(function(snapshot) {
+      var posts_div = nba;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (nord) {
+  function Fire() {
+    firebase.database().ref('Nord').once('value').then(function(snapshot) {
+      var posts_div = nord;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (sling) {
+  function Fire() {
+    firebase.database().ref('SlingTv').once('value').then(function(snapshot) {
+      var posts_div = sling;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (steam) {
+  function Fire() {
+    firebase.database().ref('Steam').once('value').then(function(snapshot) {
+      var posts_div = steam;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (tunnel) {
+  function Fire() {
+    firebase.database().ref('TunnelBear').once('value').then(function(snapshot) {
+      var posts_div = tunnel;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (Udemy) {
+  function Fire() {
+    firebase.database().ref('Udemy').once('value').then(function(snapshot) {
+      var posts_div = udemy;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (upl) {
+  function Fire() {
+    firebase.database().ref('Uplay').once('value').then(function(snapshot) {
+      var posts_div = upl;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (valo) {
+  function Fire() {
+    firebase.database().ref('Valorant').once('value').then(function(snapshot) {
+      var posts_div = valo;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+
+
