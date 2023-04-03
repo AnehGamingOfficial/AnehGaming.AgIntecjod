@@ -4,6 +4,19 @@ var disney = document.getElementById('disney');
 var deezer = document.getElementById('deezer');
 var crunchy = document.getElementById('crunchy');
 var duo = document.getElementById('duo');
+var fubo = document.getElementById('fubo');
+var fun = document.getElementById('fun');
+var hbo = document.getElementById('hbo');
+var hulu = document.getElementById('hulu');
+var ipv = document.getElementById('ipv');
+var nba = document.getElementById('nba');
+var nord = document.getElementById('nord');
+var sling = document.getElementById('sling');
+var steam = document.getElementById('steam');
+var tunnel = document.getElementById('tunnel');
+var udemy = document.getElementById('udemy');
+var upl = document.getElementById('upl');
+var valo = document.getElementById('valo');
 
 function kocak(posts_div, snapshot) {
   var data = snapshot.val();
@@ -131,7 +144,7 @@ if (tunnel) {
     });
   }}
 
-if (Udemy) {
+if (udemy) {
   function Fire() {
     firebase.database().ref('Udemy').once('value').then(function(snapshot) {
       var posts_div = udemy;
