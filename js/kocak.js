@@ -17,6 +17,8 @@ var tunnel = document.getElementById('tunnel');
 var udemy = document.getElementById('udemy');
 var upl = document.getElementById('upl');
 var valo = document.getElementById('valo');
+var vrv = document.getElementById('vrv');
+var amc = document.getElementById('amc');
 
 function kocak(posts_div, snapshot) {
   var data = snapshot.val();
@@ -164,6 +166,22 @@ if (valo) {
   function Fire() {
     firebase.database().ref('Valorant').once('value').then(function(snapshot) {
       var posts_div = valo;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (vrv) {
+  function Fire() {
+    firebase.database().ref('VRV').once('value').then(function(snapshot) {
+      var posts_div = vrv;
+      kocak(posts_div, snapshot);
+    });
+  }}
+
+if (amc) {
+  function Fire() {
+    firebase.database().ref('AMC+').once('value').then(function(snapshot) {
+      var posts_div = amc;
       kocak(posts_div, snapshot);
     });
   }}
